@@ -1,0 +1,50 @@
+.Joinpage{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    
+}
+    
+    
+
+.JoinContainer{
+    background-color:white;
+    height: 500px;
+    width: 800px;
+    /* margin-top: 100px; */
+    /* margin-left: 350px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.JoinContainer > img{
+    /* margin-top: 80px; */
+    height: 50px;
+    
+}
+
+.JoinContainer > input{
+   height: 30px;
+   width: 500px;
+   margin-top: 40px;
+}
+
+.JoinContainer > :link > button{
+    margin-top: 100px;
+    /* margin-bottom: 50px; */
+    width: 150px;
+    height: 30px;
+}
+
+.JoinContainer > hr{
+    color: black;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+

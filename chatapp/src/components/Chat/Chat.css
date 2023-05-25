@@ -1,0 +1,66 @@
+.Parent{
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 500px;
+    width: 700px;
+    background-color: yellow;
+    /* border: 1px solid red; */
+   
+    
+   
+}
+
+.empty{
+    /* border: 1px solid red; */
+    height: 365px;
+    width: 700px;
+    /* margin-top: 30px; */
+}
+
+/* .Message{ */
+    /* border: 1px solid blue; */
+    /* height: 80px; */
+    /* margin-top: 27px; */
+    /* width: 100%; */
+/* } */
+
+.Head{
+    background-color: brown;
+    /* margin-top: 70px; */
+    /* width: 100%; */
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.Head > h1{
+    color: white;
+}
+
+.Head > span{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.SendMessage{
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+}
+
+ .SendMessage > input{
+    width: 100%;
+    /* padding: 1rem; */
+ }
+
+ .SendMessage > button{
+   
+     width: 20%; 
+     /* padding: 1rem;  */
+}
